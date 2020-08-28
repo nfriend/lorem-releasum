@@ -1,0 +1,22 @@
+{
+  "name": "lorem-releasum",
+  "version": "0.1.2",
+  "description": "A utility to quickly create realistic(-ish) GitLab releases for testing purposes.",
+  "main": "src/index.ts",
+  "bin": {
+    "lorem-releasum": "ts-node src/index.ts"
+  },
+  "repository": "git@gitlab.com:nfriend/lorem-releasum.git",
+  "homepage": "https://gitlab.com/nfriend/lorem-releasum",
+  "author": "Nathan Friend <nathan@gitlab.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "@types/inquirer": "^7.3.1",
+    "@types/node": "^14.6.1",
+    "axios": "^0.20.0",
+    "inquirer": "^7.3.3",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.2"
+  }
+}
