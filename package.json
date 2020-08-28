@@ -1,10 +1,10 @@
 {
   "name": "lorem-releasum",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "A utility to quickly create realistic(-ish) GitLab releases for testing purposes.",
   "main": "src/create.js",
   "bin": {
-    "lorem-releasum": "node src/create.js"
+    "lorem-releasum": "src/create.js"
   },
   "repository": "git@gitlab.com:nfriend/lorem-releasum.git",
   "homepage": "https://gitlab.com/nfriend/lorem-releasum",
