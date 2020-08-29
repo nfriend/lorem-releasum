@@ -1,6 +1,6 @@
 {
   "name": "lorem-releasum",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "A utility to quickly create realistic(-ish) GitLab releases for testing purposes.",
   "main": "src/create.js",
   "bin": {
